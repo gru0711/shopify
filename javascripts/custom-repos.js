@@ -1,0 +1,118 @@
+// Opt-in repos (case sensitive)
+// - These are all children of Shopify and visible at https://github.com/Shopify
+var optInRepos = [
+  'FunctionalTableData',
+  'active_merchant',
+  'active_utils',
+  'app_profiler',
+  'asset_cloud',
+  'autosizes',
+  'better-html',
+  'browser_sniffer',
+  'dukpt',
+  'ejson',
+  'ejson2env',
+  'flash-list',
+  'go-lua',
+  'goluago',
+  'grizzly_ber',
+  'hydrogen',
+  'identity_cache',
+  'javy',
+  'js-buy-sdk',
+  'liquid',
+  'money',
+  'omniauth-shopify-oauth2',
+  'packwerk',
+  'pyreferrer',
+  'rbi',
+  'rbi-central',
+  'react-native-skia',
+  'restyle',
+  'rotoscope',
+  'rubocop-sorbet',
+  'ruby-lsp',
+  'semian',
+  'shipit-engine',
+  'shopify_api',
+  'shopify_app',
+  'shopify_django_app',
+  'shopify_python_api',
+  'shopify-function-wasm-api',
+  'spoom',
+  'statsd-instrument',
+  'sysv_mq',
+  'tapioca',
+  'tophat',
+  'toxiproxy',
+  'toxiproxy-ruby',
+  'turbograft',
+  'vscode-shopify-ruby',
+  'promise-kotlin',
+  'krane',
+  'handy',
+  'tracky',
+  'bootsnap',
+  'graphql-batch',
+  'job-iteration',
+  'product-taxonomy',
+  'wasmprof',
+  'cli',
+  'worldwide',
+  'roast',
+  'ucp-proxy',
+  'maintenance_tasks',
+  'cli-ui',
+  'shopify-api-ruby',
+  'shopify-app-template-node',
+  'ghostferry',
+  'erb_lint',
+  'ruby-lsp-rails',
+  'autotuner',
+  'ruby-style-guide',
+  'deprecation_toolkit',
+  'shopify-app-js',
+  'shopify-api-php',
+  'shadowenv',
+  'measured',
+  'gltf-compressor',
+  'ui-extensions',
+  'buy-button-js',
+  'heap-profiler',
+  'ci-queue',
+  'theme-tools',
+  'graphql-metrics',
+  'smart_todo',
+  'shopify-app-template-react-router',
+  'cli-kit',
+  'draggable'
+];
+
+// Add custom repos by full_name. Take the org/user and repo name
+// - e.g. batmanjs/batman from https://github.com/batmanjs/batman
+// Shopify originated open source projects hosted elsewhere now
+var customRepos = [
+  'modelcontextprotocol/ruby-sdk',
+  'Universal-Commerce-Protocol/ucp',
+  'remix-run/react-router',
+  'remix-run/remix',
+  'TangleML/tangle',
+  'davebcn87/pi-autoresearch'
+];
+
+// Custom repo language, different than that defined by GitHub
+var customRepoLanguage = {
+  liquid: 'Liquid',
+  'offsite-gateway-sim': 'Ruby',
+  'shopify.github.com': 'JavaScript',
+  rotoscope: 'C',
+  handy: 'Unity'
+};
+
+// Custom repo avatars. Dimensions should be 40x40
+// - Be sure a custom repo doesn't have the same name as a Shopify one, or a one will be overridden
+var customRepoAvatar = {
+  slate: '/images/repo-avatars/slate.svg',
+  draggable: '/images/repo-avatars/draggable.png',
+  superdb: '/images/repo-avatars/super-debugger.gif'
+};
